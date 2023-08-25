@@ -15,6 +15,6 @@ elif bmi < 30:
 elif bmi < 35:
     diagnosis = "fat"
 elif bmi > 35:
-    diagnosis = "bench breaking huge bitch"
+    diagnosis = "damn"
 
 print(statement + diagnosis)
