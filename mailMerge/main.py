@@ -13,7 +13,7 @@ def read_names_file():
         return names
 
 def write_letter(person_invited, content):
-    with open(file=f"./Output/ReadyToSend/{person_invited}", mode="w") as letter:
+    with open(file=f"./Output/ReadyToSend/{person_invited}.txt", mode="w") as letter:
         letter.write(content)
 
 def open_letter_template():
